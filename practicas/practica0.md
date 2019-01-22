@@ -4,9 +4,9 @@
 Compilar y correr xv6
 
 ## Herramientas:
-*gcc -> compilador
-*qemu -> máquina virtual
-*make -> automatizaciones
+* gcc -> compilador
+* qemu -> máquina virtual
+* make -> automatizaciones
 
 ## Conceptos: 
 Un programa compuesto de un código fuente.
