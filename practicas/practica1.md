@@ -2,9 +2,9 @@
 Crear dos llamadas a sistema con sus respectivos comandos para apagar y reiniciar.
 
 ## Herramientas
-Make
-gcc (implícito)
-Git 
++ Make
++ gcc (implícito)
++ Git 
 
 ## Conceptos
 1)Llamadas a sistema:
