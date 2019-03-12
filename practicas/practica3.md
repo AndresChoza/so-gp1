@@ -19,4 +19,5 @@ Crear un programa para probarlo.
 # ¿Qué aprendí?
 
 # URL del Commit
-
++ https://github.com/AndresChoza/so-gp1/commit/24bec2c706ba4022072157a9fe2b82afa9c0a7f7
++ https://github.com/AndresChoza/so-gp1/commit/29fb68063d422422d758162f365a7a8d431ee870
