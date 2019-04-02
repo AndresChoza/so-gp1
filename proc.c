@@ -570,5 +570,4 @@ int sys_getPriority(void){
 		}
 	}
 	return -1;
-	
 }

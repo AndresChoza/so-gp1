@@ -107,6 +107,7 @@ extern int sys_shutdown(void);
 extern int sys_reboot(void);
 extern int sys_setPriority(void);
 extern int sys_getPriority(void);
+extern int sys_date(void);
 
 static int (*syscalls[])(void) = {
 [SYS_fork]    sys_fork,
@@ -134,6 +135,7 @@ static int (*syscalls[])(void) = {
 [SYS_reboot] sys_reboot,
 [SYS_setPriority] sys_setPriority,
 [SYS_getPriority] sys_getPriority,
+[SYS_date] sys_date,
 };
 
 void
@@ -144,6 +146,7 @@ syscall(void)
 
   num = curproc->tf->eax;
   if(num > 0 && num < NELEM(syscalls) && syscalls[num]) {
+	//cprintf("%s -> %d\n",curproc->name, num); //Mod
     curproc->tf->eax = syscalls[num]();
   } else {
     cprintf("%d %s: unknown sys call %d\n",
