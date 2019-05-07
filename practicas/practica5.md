@@ -25,7 +25,7 @@ Hacer un spike sobre hilos, semáforos y locks.
     ++ unlock (desbloquear) liberar el lock.
   + Secciones Críticas.
   
-+ ¿Qué Aprendí?
+# ¿Qué Aprendí?
 
 
-+ URL del Commit
+# URL del Commit
